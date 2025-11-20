@@ -180,7 +180,7 @@ const MODES: Mode[] = [
     icon: "photo_spark",
     promptPlaceholderText:
       "Type your image prompt here. Use @ to include other content.",
-    info: "Image generation has limited free quota",
+    info: "Image generation has a daily limit",
     portMap: new Map([[PROMPT_PORT, "instruction"]]),
   },
   {
@@ -192,7 +192,7 @@ const MODES: Mode[] = [
     icon: "photo_spark",
     promptPlaceholderText:
       "Type your image prompt here. Use @ to include other content.",
-    info: "Image generation has limited free quota",
+    info: "Image generation has a daily limit",
     portMap: new Map([[PROMPT_PORT, "instruction"]]),
   },
   {
@@ -204,7 +204,7 @@ const MODES: Mode[] = [
     icon: "audio_magic_eraser",
     promptPlaceholderText:
       "Type the text to speak here. Use @ to include other content.",
-    info: "Audio generation has limited free quota",
+    info: "Audio generation has a daily limit",
     portMap: new Map([[PROMPT_PORT, "text"]]),
   },
   {
@@ -216,7 +216,7 @@ const MODES: Mode[] = [
     icon: "videocam_auto",
     promptPlaceholderText:
       "Type your video prompt here. Use @ to include other content.",
-    info: "Video generation has limited free quota",
+    info: "Video generation has a daily limit",
     portMap: new Map([[PROMPT_PORT, "instruction"]]),
   },
   {
@@ -228,7 +228,7 @@ const MODES: Mode[] = [
     icon: "audio_magic_eraser",
     promptPlaceholderText:
       "Type your music prompt here. Use @ to include other content.",
-    info: "Music generation has limited free quota",
+    info: "Music generation has a daily limit",
     portMap: new Map([[PROMPT_PORT, "text"]]),
   },
 ] as const;
